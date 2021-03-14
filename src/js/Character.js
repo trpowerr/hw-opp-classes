@@ -17,54 +17,54 @@ export default class Character {
   }
 }
 
-class Bowman extends Character {
-  constructor(name) {
-    super(name);
+export class Bowman extends Character {
+  constructor(name, type) {
+    super(name, type);
     this.type = 'Bowman';
     this.attack = 25;
     this.defence = 25;
   }
 }
 
-class Swordman extends Character {
-  constructor(name) {
-    super(name);
-    this.type = 'Swordman';
+export class Swordsman extends Character {
+  constructor(name, type) {
+    super(name, type);
+    this.type = 'Swordsman';
     this.attack = 40;
     this.defence = 10;
   }
 }
 
-class Magician extends Character {
-  constructor(name) {
-    super(name);
+export class Magician extends Character {
+  constructor(name, type) {
+    super(name, type);
     this.type = 'Magician';
     this.attack = 10;
     this.defence = 40;
   }
 }
 
-class Undead extends Character {
-  constructor(name) {
-    super(name);
+export class Undead extends Character {
+  constructor(name, type) {
+    super(name, type);
     this.type = 'Undead';
     this.attack = 25;
     this.defence = 25;
   }
 }
 
-class Zombie extends Character {
-  constructor(name) {
-    super(name);
+export class Zombie extends Character {
+  constructor(name, type) {
+    super(name, type);
     this.type = 'Zombie';
     this.attack = 40;
     this.defence = 10;
   }
 }
 
-class Daemon extends Character {
-  constructor(name) {
-    super(name);
+export class Daemon extends Character {
+  constructor(name, type) {
+    super(name, type);
     this.type = 'Daemon';
     this.attack = 10;
     this.defence = 40;
