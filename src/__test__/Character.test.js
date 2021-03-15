@@ -21,11 +21,11 @@ test('input validation NAME', () => {
 });
 
 test('damage calculation check', () => {
-  let newPerson = new Daemon('Misha', 'Daemon');
-  newPerson = new Bowman('Misha', 'Bowman');
-  newPerson = new Swordsman('Misha', 'Daemon');
-  newPerson = new Magician('Misha', 'Magician');
-  newPerson = new Undead('Misha', 'Undead');
-  newPerson = new Zombie('Misha', 'Zombie');
+  let newPerson = new Daemon('Misha');
+  newPerson = new Bowman('Misha');
+  newPerson = new Swordsman('Misha');
+  newPerson = new Magician('Misha');
+  newPerson = new Undead('Misha');
+  newPerson = new Zombie('Misha');
   expect(true).toBe(true);
 });
